@@ -6,7 +6,6 @@
 	import { onDestroy, onMount } from 'svelte';
 	import { ws } from '$lib/socket.js';
 	import { CornerDownLeft, Unplug } from 'lucide-svelte';
-
 	import Paperclip from 'lucide-svelte/icons/paperclip';
 	import Mic from 'lucide-svelte/icons/mic';
 	import * as Tooltip from '$lib/components/ui/tooltip/index.js';
